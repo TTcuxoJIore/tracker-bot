@@ -1,0 +1,25 @@
+{
+  "name": "trackerbot",
+  "version": "1.0.0",
+  "description": "Bot for finding torrent trackers",
+  "main": "p.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "be9st",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.0.0",
+    "fs": "0.0.1-security",
+    "html-to-text": "^5.1.1",
+    "request": "^2.88.2",
+    "torrent-search-api": "^2.0.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.6"
+  }
+}
