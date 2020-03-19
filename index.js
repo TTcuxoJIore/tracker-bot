@@ -20,7 +20,7 @@ bot.on('message', (message) => {
       args = msg.slice(1)
     // Основной контроллер
     switch (command) {
-      case 'search':
+      case '':
         // если пользователь не знает, мы ему покажем
         if (args[0] == undefined) break
 
